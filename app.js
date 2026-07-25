@@ -166,6 +166,7 @@ function renderGames(){
   const sec = el("section","day active");
   sec.appendChild(el("h2","","Most Anticipated Games"));
   sec.appendChild(el("p","lead","Medium/heavy weight + famous designers prioritized. Weight is a best-effort assessment from previews. Source = official 2026 map unless a preview is cited."));
+  sec.appendChild(el("div","callout warn","<strong>Go early for these two.</strong> <strong>Night at the Zoo</strong> (Capstone 611 / Albi 2564) is making its US debut here ahead of its Aug 31 street date — debut-quantity stock at a single convention is typically limited, even though no explicit sell-out has been reported. <strong>Totally Human</strong> (Bitewing 1253) is a freshly-Kickstarted title (funded Jan–Feb 2026) with 40 demo sessions on the schedule — high foot traffic likely. Neither is confirmed sold out as of this writing, but don't leave them for Sunday."));
   const wrap = el("div","panel");
   wrap.appendChild(table(
     ["Game","Publisher","Designer(s)","Weight","Booth #","Priority"],
